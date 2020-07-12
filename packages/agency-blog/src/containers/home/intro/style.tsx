@@ -80,6 +80,7 @@ export const IntroSkills = styled.h2`
   font-family: ${themeGet("fontFamily.0", "'Fira Sans',sans-serif")};
   color: ${themeGet("colors.textColor", "#292929")};
   text-align: center;
+  margin-top: 70px;
   margin-bottom: 30px;
   @media (max-width: 990px) {
     font-size: 26px;

@@ -43,10 +43,10 @@ const SocialLinks = [
   },
 ];
 
-const Intro: React.FunctionComponent<IntroProps> = (props) => {
+const Intro: React.FunctionComponent<IntroProps> = () => {
   const Data = useStaticQuery(graphql`
     query {
-      avatar: file(absolutePath: { regex: "/author.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/author.png/" }) {
         childImageSharp {
           fluid(maxWidth: 210, maxHeight: 210, quality: 90) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -68,10 +68,10 @@ const Intro: React.FunctionComponent<IntroProps> = (props) => {
   return (
     <IntroWrapper>
       <BgText>CODE</BgText>
-      <IntroImage>
-        <Image fluid={AuthorImage} alt="author" />
-      </IntroImage>
       <IntroContentWrapper>
+        <IntroImage>
+          <Image fluid={AuthorImage} alt="author" />
+        </IntroImage>
         <IntroTitle>Hey! I'm {author}</IntroTitle>
         <Desciption>{about}</Desciption>
         <SocialProfile items={SocialLinks} />

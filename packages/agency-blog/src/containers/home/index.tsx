@@ -1,10 +1,10 @@
-import * as React from "react"
-import PersonalBlogWrapper from "./style"
-import Intro from "./intro"
-import Posts from "./posts"
-import FeaturedPosts from "./featured-post"
+import * as React from "react";
+import PersonalBlogWrapper from "./style";
+import Intro from "./intro";
+// import Posts from "./posts";
+import FeaturedPosts from "./featured-post";
 
-type PersonalBlogProps = {}
+type PersonalBlogProps = {};
 
 const PersonalBlog: React.FunctionComponent<PersonalBlogProps> = ({
   ...props
@@ -13,9 +13,9 @@ const PersonalBlog: React.FunctionComponent<PersonalBlogProps> = ({
     <PersonalBlogWrapper {...props}>
       <Intro />
       <FeaturedPosts />
-      <Posts />
+      {/* <Posts /> */}
     </PersonalBlogWrapper>
-  )
-}
+  );
+};
 
-export default PersonalBlog
+export default PersonalBlog;

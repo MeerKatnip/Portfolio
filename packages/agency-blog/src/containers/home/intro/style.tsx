@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { themeGet } from "@styled-system/theme-get"
+import styled from "styled-components";
+import { themeGet } from "@styled-system/theme-get";
 
 export const IntroWrapper = styled.div`
   padding: 190px 10px 190px 10px;
@@ -16,7 +16,7 @@ export const IntroWrapper = styled.div`
   @media (max-width: 575px) {
     padding: 50px 25px 80px 25px;
   }
-`
+`;
 
 export const IntroContentWrapper = styled.div`
   width: 740px;
@@ -25,7 +25,7 @@ export const IntroContentWrapper = styled.div`
 
   text-align: center;
   position: relative;
-`
+`;
 
 export const IntroImage = styled.div`
   width: 270px;
@@ -54,7 +54,7 @@ export const IntroImage = styled.div`
     display: block;
     border-radius: 50%;
   }
-`
+`;
 
 export const IntroTitle = styled.h1`
   font-size: 30px;
@@ -72,7 +72,25 @@ export const IntroTitle = styled.h1`
     font-size: 22px;
     margin-bottom: 20px;
   }
-`
+`;
+
+export const IntroSkills = styled.h2`
+  font-size: 20px;
+  font-weight: 700;
+  font-family: ${themeGet("fontFamily.0", "'Fira Sans',sans-serif")};
+  color: ${themeGet("colors.textColor", "#292929")};
+  text-align: center;
+  margin-bottom: 30px;
+  @media (max-width: 990px) {
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-bottom: 30px;
+  }
+  @media (max-width: 575px) {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+`;
 
 export const Desciption = styled.p`
   color: ${themeGet("colors.textColor", "#292929")};
@@ -83,7 +101,7 @@ export const Desciption = styled.p`
   @media (max-width: 767px) {
     margin-bottom: 30px;
   }
-`
+`;
 
 export const BgText = styled.div`
   font-size: 400px;
@@ -110,4 +128,4 @@ export const BgText = styled.div`
   @media (max-width: 767px) {
     display: none;
   }
-`
+`;

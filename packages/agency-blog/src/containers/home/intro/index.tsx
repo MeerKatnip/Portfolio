@@ -1,9 +1,12 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import Image from "gatsby-image";
 import SocialProfile from "../../../components/social-profile/social-profile";
 import {
   IntroWrapper,
+  IntroImage,
   IntroTitle,
+  IntroSkills,
   Desciption,
   BgText,
   IntroContentWrapper,
@@ -43,6 +46,13 @@ const SocialLinks = [
 const Intro: React.FunctionComponent<IntroProps> = (props) => {
   const Data = useStaticQuery(graphql`
     query {
+      avatar: file(absolutePath: { regex: "/author.jpg/" }) {
+        childImageSharp {
+          fluid(maxWidth: 210, maxHeight: 210, quality: 90) {
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          }
+        }
+      }
       site {
         siteMetadata {
           author
@@ -53,14 +63,22 @@ const Intro: React.FunctionComponent<IntroProps> = (props) => {
   `);
 
   const { about, author } = Data.site.siteMetadata;
+  const AuthorImage = Data.avatar.childImageSharp.fluid;
 
   return (
     <IntroWrapper>
       <BgText>CODE</BgText>
+      <IntroImage>
+        <Image fluid={AuthorImage} alt="author" />
+      </IntroImage>
       <IntroContentWrapper>
-        <IntroTitle>Hi, I'm {author}</IntroTitle>
+        <IntroTitle>Hey! I'm {author}</IntroTitle>
         <Desciption>{about}</Desciption>
         <SocialProfile items={SocialLinks} />
+        <IntroSkills>Skills</IntroSkills>
+        <Desciption>
+          JavaScript, React, Redux, HTML, CSS, SASS, Node.js, PostgreSQL
+        </Desciption>
       </IntroContentWrapper>
     </IntroWrapper>
   );

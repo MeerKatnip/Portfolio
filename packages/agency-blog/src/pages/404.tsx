@@ -1,10 +1,10 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Navbar from "../components/navbar/navbar"
-import ResetCss from "../components/reset-css"
-import SEO from "../components/seo"
-import NotFound from "../containers/not-found"
-import Footer from "../components/footer/footer"
+import React from "react";
+import { graphql } from "gatsby";
+import Navbar from "../components/navbar/navbar";
+import ResetCss from "../components/reset-css";
+import SEO from "../components/seo";
+import NotFound from "../containers/not-found";
+import Footer from "../components/footer/footer";
 
 const NotFoundPage = (props: any) => {
   return (
@@ -14,14 +14,16 @@ const NotFoundPage = (props: any) => {
       <SEO title="404: Not Found" />
       <NotFound />
       <Footer>
-        Copyright &copy; {new Date().getFullYear()}
+        Copyright Amy Roy &copy; {new Date().getFullYear()}
+        <br />
+        Template by &copy; {new Date().getFullYear()}
         <a href="https://redq.io/"> RedQ, Inc.</a>
       </Footer>
     </>
-  )
-}
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;
 
 export const pageQuery = graphql`
   query {
@@ -31,4 +33,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

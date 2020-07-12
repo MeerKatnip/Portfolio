@@ -30,7 +30,7 @@ const SocialLinks = [
   },
   {
     icon: <IoLogoTwitter />,
-    url: "https://twitter.com/redqinc",
+    url: "https://twitter.com/AmyCodesMe",
     tooltip: "Twitter",
   },
   {
@@ -83,18 +83,8 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
 
       <AboutDetails>
         <h2>Hey there, what’s up?</h2>
-        <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
-        </p>
-        <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
-        </p>
+        <p>A paragraph to describe myself and my portfolio.</p>
+        <p>Another paragraph to describe myself and my portfolio.</p>
 
         <SocialProfiles>
           <SocialProfile items={SocialLinks} />

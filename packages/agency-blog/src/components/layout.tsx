@@ -1,14 +1,14 @@
-import React from 'react';
-import Sticky from 'react-stickynode';
-import { ThemeProvider } from 'styled-components';
-import ScrollToTop from 'react-scroll-up';
-import Navbar from './navbar/navbar';
-import Newsletter from './newsletter/newsletter';
-import Footer from './footer/footer';
-import ScrollUpButton from './scroll-up-button/scroll-up-button';
-import InstagramShowcase from '../containers/instagram-showcase';
-import ResetCss from './reset-css';
-import { theme } from '../theme';
+import React from "react";
+import Sticky from "react-stickynode";
+import { ThemeProvider } from "styled-components";
+import ScrollToTop from "react-scroll-up";
+import Navbar from "./navbar/navbar";
+import Newsletter from "./newsletter/newsletter";
+import Footer from "./footer/footer";
+import ScrollUpButton from "./scroll-up-button/scroll-up-button";
+import InstagramShowcase from "../containers/instagram-showcase";
+import ResetCss from "./reset-css";
+import { theme } from "../theme";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -28,7 +28,9 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children }) => {
         <InstagramShowcase />
         <Newsletter />
         <Footer>
-          Copyright &copy; {new Date().getFullYear()}
+          Copyright Amy Roy &copy; {new Date().getFullYear()}
+          <br />
+          Theme created by &copy; {new Date().getFullYear()}
           <a href="https://redq.io/"> RedQ, Inc.</a>
         </Footer>
         <ScrollToTop

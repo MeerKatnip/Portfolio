@@ -1,42 +1,42 @@
-import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import SocialProfile from '../../../components/social-profile/social-profile';
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import SocialProfile from "../../../components/social-profile/social-profile";
 import {
   IntroWrapper,
   IntroTitle,
   Desciption,
   BgText,
   IntroContentWrapper,
-} from './style';
+} from "./style";
 import {
   IoLogoFacebook,
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-} from 'react-icons/io';
+} from "react-icons/io";
 
 type IntroProps = {};
 
 const SocialLinks = [
   {
     icon: <IoLogoFacebook />,
-    url: '#',
-    tooltip: 'Facebook',
+    url: "#",
+    tooltip: "Facebook",
   },
   {
     icon: <IoLogoInstagram />,
-    url: '#',
-    tooltip: 'Instagram',
+    url: "#",
+    tooltip: "Instagram",
   },
   {
     icon: <IoLogoTwitter />,
-    url: '#',
-    tooltip: 'Twitter',
+    url: "https://twitter.com/AmyCodesMe",
+    tooltip: "Twitter",
   },
   {
     icon: <IoLogoGithub />,
-    url: '#',
-    tooltip: 'Github',
+    url: "https://github.com/MeerKatnip",
+    tooltip: "Github",
   },
 ];
 
@@ -52,13 +52,13 @@ const Intro: React.FunctionComponent<IntroProps> = (props) => {
     }
   `);
 
-  const { about } = Data.site.siteMetadata;
+  const { about, author } = Data.site.siteMetadata;
 
   return (
     <IntroWrapper>
-      <BgText>ABOUT</BgText>
+      <BgText>CODE</BgText>
       <IntroContentWrapper>
-        <IntroTitle>Stay on the story</IntroTitle>
+        <IntroTitle>Hi, I'm {author}</IntroTitle>
         <Desciption>{about}</Desciption>
         <SocialProfile items={SocialLinks} />
       </IntroContentWrapper>

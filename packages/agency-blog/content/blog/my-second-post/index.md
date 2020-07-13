@@ -1,8 +1,8 @@
 ---
-title: Sharing content that makes other people engage
+title: 'More Projects Coming Soon'
 date: '2019-01-01T23:46:37.121Z'
 cover: './preview.png'
-tags: ['markdown', 'test', 'unity']
+tags: ['JavaScript', 'React']
 slug: 'sharing-content-that-makes-other'
 ---
 

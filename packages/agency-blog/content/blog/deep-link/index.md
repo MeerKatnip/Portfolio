@@ -1,14 +1,58 @@
 ---
-title: How to Use the Deep Link Generator
-date: '2019-05-25'
-tags: ['hello', 'markdown']
-cover: './preview.png'
+title: Plant Parent App
+date: '2020-07-13'
+tags:
+  [
+    'React',
+    'Redux',
+    'JavaScript',
+    'Node.js',
+    'PostgreSQL',
+    'Bootstrap',
+    'under-construction',
+  ]
+cover: './plantparent.png'
 ---
 
-An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
+> _Currently under contruction, due to launch July 23, 2020._
 
-The typography of this industrial age was no longer handcrafted. Mass production and profit became more important. Quantity mattered more than the quality. The books and printed works in general lost a part of its humanity. The typefaces were not produced by craftsmen anymore. It was the machines printing and tying the books together now. The craftsmen had to let go of their craft and became a cog in the process. An extension of the industrial machine.
+#### Purpose of the app:
 
-But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognising the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.
+This app is for users to manage the health and nutrition of their beloved plants. Whether they are just beginning their plant parenthood journey, or have been raising plants for years, this app is an invaluable tool for care.
 
-A similar conflict emerged after the invention of the first printing press in Europe. Johannes Gutenberg invented movable type and used it to produce different compositions. His workshop could print up to 240 impressions per hour. Until then, the books were being copied by hand. All the books were handwritten and decorated with hand drawn ornaments and figures. A process of copying a book was long but each book, even a copy, was a work of art.
+#### How to use:
+
+A user will create an account with an email address and password. The user will browse the list of plant species and select the ones that are raising. Once at least one plant has been selected, the user can view which plants they have assigned to their account.
+
+#### Features on the app:
+
+- Plants are added to the user's account database by name. Users will be able to access info about the plant species and care instructions including watering, sunlight, and nutrient needs. Individual plant needs are broken down by user's geolocation tag and current weather patterns to advise them of when to water or fertilize a plant. App will display the amount of days remaining until it's time to water or fertilize a plant, e.g "Water me in two days", "Water me today!", "Feed me in 10 days."
+
+##### Future features:
+
+- Moisture sensor integration to give accurate, detailed information about water and soil needs.
+- Users can name their plant, including taking a "baby photo" of their plant to document the growth of their little sprout.
+
+## Site Preview
+
+##### Home Page:
+
+##### Login Page:
+
+## Live Link
+
+[sample link](http://www.google.com)
+
+## This site was built by:
+
+[Amy Roy](https://github.com/MeerKatnip)
+
+## Database and APIs used:
+
+[Vegetable Plant API](http://highoncoding.com/vegetable/getcatalog)
+
+[OpenWeather API](https://openweathermap.org/api)
+
+## Languages and Frameworks used:
+
+JavaScript, React, Redux, Node.js, PostgreSQL, Bootstrap

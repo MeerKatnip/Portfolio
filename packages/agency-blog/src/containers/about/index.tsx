@@ -52,7 +52,7 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
     query {
       avatar: file(absolutePath: { regex: "/about.jpg/" }) {
         childImageSharp {
-          fluid(maxWidth: 1770, quality: 90) {
+          fluid(maxWidth: 600, quality: 90) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -69,12 +69,7 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
   return (
     <AboutWrapper>
       <AboutPageTitle>
-        <h2>About StoryHub</h2>
-        <p>
-          StoryHub is a beautiful Gatsby Blog theme designed to showcase your
-          work in style. Perfect for designers, artists, photographers and
-          developers to use for their portfolio website.
-        </p>
+        <h2>About Me</h2>
       </AboutPageTitle>
 
       <AboutImage>
@@ -83,8 +78,17 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
 
       <AboutDetails>
         <h2>Hey there, what’s up?</h2>
-        <p>A paragraph to describe myself and my portfolio.</p>
-        <p>Another paragraph to describe myself and my portfolio.</p>
+        <p>
+          {" "}
+          I am a detailed, competent lifelong learner with a passion for
+          organization and 3D printing. I excel at making databases and taking
+          large stacks of client information and parsing it into an
+          understandable and accessible format.
+        </p>
+        <p>
+          Check out my web dev work and connect with me at any of the links
+          below:
+        </p>
 
         <SocialProfiles>
           <SocialProfile items={SocialLinks} />

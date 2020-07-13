@@ -91,6 +91,14 @@ export const IntroSkills = styled.h2`
     font-size: 22px;
     margin-bottom: 20px;
   }
+  &:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #292929;
+    display: block;
+    margin-top: 8px;
+  }
 `;
 
 export const Desciption = styled.p`

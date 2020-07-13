@@ -1,9 +1,11 @@
 ---
-title: How to Use the Deep Link Generator
-date: '2019-05-25'
-tags: ['hello', 'markdown']
-cover: './preview.png'
+title: Plant Parent App
+date: "2020-07-13"
+tags: ["React", "Redux", "JavaScript", "PostgreSQL", "under-construction"]
+cover: "./plantparent.png"
 ---
+
+Plant Parent App
 
 An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
 

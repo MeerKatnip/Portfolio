@@ -1,8 +1,8 @@
 ---
-title: Can I Use Hooks Today?
+title: 'More Projects Coming Soon'
 date: '2019-02-20'
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
-tags: ['animals', 'zoos', 'unity']
+tags: ['JavaScript', 'React']
 cover: './preview.png'
 ---
 

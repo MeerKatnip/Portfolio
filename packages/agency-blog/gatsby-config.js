@@ -1,13 +1,13 @@
-require('dotenv').config({
+require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
 module.exports = {
   siteMetadata: {
-    title: `StoryHub`,
-    author: `Monnisa`,
-    about: `Every company has a story to tell, so break out your storytelling skills from that random English class you took years ago and put them to work on your “About Us” page. Using descriptive and emotive copy and gorgeous graphics, an “About Us” page with a story works.`,
-    description: `A Gatsby Blog`,
+    title: `Amycodes.me`,
+    author: `Amy Roy`,
+    about: `This is the area where I describe myself and display my portfolio.`,
+    description: `Amy Roy Software Engineer Portfolio Home Page - Amycodes.me`,
     siteUrl: `https://storyhub-agency-tarex.redq.now.sh/`,
   },
   plugins: [
@@ -95,13 +95,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `StoryHub - Agency Blog`,
-        short_name: `StoryHub`,
+        name: `Amy Roy Software Engineer Portfolio - Amycodes.me`,
+        short_name: `Amycodes.me`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/favicon.png`,
+        icon: `content/assets/icon-512.png`,
       },
     },
     {
@@ -117,9 +117,9 @@ module.exports = {
       resolve: `gatsby-plugin-lodash`,
     },
     {
-      resolve: 'gatsby-plugin-mailchimp',
+      resolve: "gatsby-plugin-mailchimp",
       options: {
-        endpoint: '', // add your MC list endpoint here
+        endpoint: "", // add your MC list endpoint here
       },
     },
     {

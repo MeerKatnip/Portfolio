@@ -2,7 +2,7 @@
   "name": "@blog/agency",
   "private": true,
   "version": "2.0.0",
-  "author": "RedQ, Inc",
+  "author": "Amy Roy",
   "dependencies": {
     "@styled-system/theme-get": "^5.1.2",
     "axios": "^0.19.2",

@@ -1,14 +1,14 @@
-import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import FeaturedCard from "../../../components/featured-card/featured-card"
+import * as React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import FeaturedCard from "../../../components/featured-card/featured-card";
 import {
   FeaturedPostWrapper,
   FeaturedPostRow,
   FeaturedPostCol,
   SecTitle,
-} from "./style"
+} from "./style";
 
-type FeaturedPostsProps = {}
+type FeaturedPostsProps = {};
 
 const FeaturedPosts: React.FunctionComponent<FeaturedPostsProps> = (props) => {
   const Data = useStaticQuery(graphql`
@@ -57,16 +57,16 @@ const FeaturedPosts: React.FunctionComponent<FeaturedPostsProps> = (props) => {
         }
       }
     }
-  `)
+  `);
 
-  const Posts = Data.allMarkdownRemark.edges
+  const Posts = Data.allMarkdownRemark.edges;
 
   return (
     <FeaturedPostWrapper>
-      <SecTitle>Featured Stories</SecTitle>
+      <SecTitle>My Portfolio</SecTitle>
       <FeaturedPostRow>
         {Posts.map(({ node }: any) => {
-          const title = node.frontmatter.title || node.fields.slug
+          const title = node.frontmatter.title || node.fields.slug;
           return (
             <FeaturedPostCol key={title}>
               <FeaturedCard
@@ -81,11 +81,11 @@ const FeaturedPosts: React.FunctionComponent<FeaturedPostsProps> = (props) => {
                 description={node.excerpt}
               />
             </FeaturedPostCol>
-          )
+          );
         })}
       </FeaturedPostRow>
     </FeaturedPostWrapper>
-  )
-}
+  );
+};
 
-export default FeaturedPosts
+export default FeaturedPosts;

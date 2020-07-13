@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { Link } from 'gatsby';
-import { IoIosSearch, IoIosClose } from 'react-icons/io';
-import { DrawerProvider } from '../drawer/drawer-context';
-import Menu from './menu';
-import MobileMenu from './mobile-menu';
-import SearchContainer from '../../containers/search/search';
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import { IoIosSearch, IoIosClose } from "react-icons/io";
+import { DrawerProvider } from "../drawer/drawer-context";
+import Menu from "./menu";
+import MobileMenu from "./mobile-menu";
+import SearchContainer from "../../containers/search/search";
 import HeaderWrapper, {
   NavbarWrapper,
   Logo,
@@ -13,8 +13,8 @@ import HeaderWrapper, {
   NavSearchWrapper,
   SearchCloseButton,
   NavSearchFromWrapper,
-} from './navbar.style';
-import LogoImage from '../../images/logo.png';
+} from "./navbar.style";
+import LogoImage from "../../images/logo.png";
 
 type NavbarProps = {
   className?: string;
@@ -22,20 +22,8 @@ type NavbarProps = {
 
 const MenuItems = [
   {
-    label: 'Home',
-    url: '/',
-  },
-  {
-    label: 'About',
-    url: '/about',
-  },
-  {
-    label: 'Contact',
-    url: '/contact',
-  },
-  {
-    label: '404 Page',
-    url: '/404',
+    label: "Portfolio/About Me",
+    url: "/",
   },
 ];
 
@@ -45,7 +33,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
 }) => {
   const [state, setState] = useState({
     toggle: false,
-    search: '',
+    search: "",
   });
 
   const toggleHandle = () => {
@@ -56,7 +44,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
   };
 
   // Add al classs to an array
-  const addAllClass = ['header'];
+  const addAllClass = ["header"];
 
   // cla ssName p rop checking
   if (className) {
@@ -64,7 +52,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
   }
 
   return (
-    <HeaderWrapper className={addAllClass.join(' ')} {...props}>
+    <HeaderWrapper className={addAllClass.join(" ")} {...props}>
       <NavbarWrapper className="navbar">
         <DrawerProvider>
           <MobileMenu items={MenuItems} logo={LogoImage} />
@@ -86,7 +74,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
         </NavSearchButton>
       </NavbarWrapper>
 
-      <NavSearchWrapper className={state.toggle === true ? 'expand' : ''}>
+      <NavSearchWrapper className={state.toggle === true ? "expand" : ""}>
         <NavSearchFromWrapper>
           <SearchContainer />
           <SearchCloseButton

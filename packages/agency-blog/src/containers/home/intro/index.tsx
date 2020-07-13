@@ -63,7 +63,7 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
     }
   `);
 
-  const { about, author } = Data.site.siteMetadata;
+  const { author } = Data.site.siteMetadata;
   const AuthorImage = Data.avatar.childImageSharp.fluid;
 
   return (
@@ -73,14 +73,29 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
         <IntroImage>
           <Image fluid={AuthorImage} alt="author" />
         </IntroImage>
-        <IntroTitle>Hey! I'm {author}</IntroTitle>
+        <IntroTitle>Hey! I'm {author}.</IntroTitle>
         <Desciption>
           <p>
             {" "}
             I am a detailed, competent lifelong learner with a passion for
-            organization and 3D printing. I excel at making databases and taking
-            large stacks of client information and parsing it into an
-            understandable and accessible format.
+            organization and coding. I excel at taking large quantities of
+            client information and parsing it into an understandable and
+            accessible format. My goal is to consistently deliver a product that
+            makes life easier for the user.
+          </p>
+          <p>
+            As I earned my associate's degree for Fashion Design, I discovered
+            an enthusiasm for 3D printing and microcontrollers. This opened me
+            up to a new world of technology and communication with computers
+            that I'd never experienced before. My work experience included
+            clerical and managerial positions working with databases, and this
+            gave me a deep appreciation for the power of organized information.
+            I decided that now was the time for me to attend a coding bootcamp
+            and enter this exciting field.
+          </p>
+          <p>
+            In my free time, I love to garden, hike and bike on trails, and play
+            video games (Animal Crossing FTW!)
           </p>
           <p>
             Check out my web dev work and connect with me at any of the links
@@ -90,7 +105,8 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
         <SocialProfile items={SocialLinks} />
         <IntroSkills>My Skills</IntroSkills>
         <Desciption>
-          JavaScript, React, Redux, HTML, CSS, SASS, Node.js, PostgreSQL
+          JavaScript, React, Redux, HTML, CSS, SASS, Node.js, PostgreSQL,
+          Bootstrap
         </Desciption>
       </IntroContentWrapper>
     </IntroWrapper>

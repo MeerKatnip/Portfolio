@@ -56,5 +56,3 @@ A user will create an account with an email address and password. The user will 
 ## Languages and Frameworks used:
 
 JavaScript, React, Redux, Node.js, PostgreSQL, Bootstrap
-
-> Written by Amy Roy with [StackEdit](https://stackedit.io/).

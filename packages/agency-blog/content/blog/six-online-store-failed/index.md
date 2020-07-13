@@ -1,8 +1,8 @@
 ---
-title: Six of My Online Stores Failed.
+title: 'More Projects Coming Soon'
 date: '2019-05-23'
 cover: './preview.png'
-tags: ['markdown', 'test', 'unity']
+tags: ['JavaScript', 'React']
 ---
 
 Wow! I love blogging so much already.

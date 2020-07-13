@@ -1,7 +1,7 @@
 ---
-title: An example can be illustrative
+title: 'More Projects Coming Soon'
 date: '2019-01-06T22:12:03.284Z'
-tags: ['hello', 'Chicago', 'markdown']
+tags: ['JavaScript', 'React']
 cover: './preview.png'
 ---
 

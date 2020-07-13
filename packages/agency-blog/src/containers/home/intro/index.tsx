@@ -74,9 +74,21 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
           <Image fluid={AuthorImage} alt="author" />
         </IntroImage>
         <IntroTitle>Hey! I'm {author}</IntroTitle>
-        <Desciption>{about}</Desciption>
+        <Desciption>
+          <p>
+            {" "}
+            I am a detailed, competent lifelong learner with a passion for
+            organization and 3D printing. I excel at making databases and taking
+            large stacks of client information and parsing it into an
+            understandable and accessible format.
+          </p>
+          <p>
+            Check out my web dev work and connect with me at any of the links
+            below:
+          </p>
+        </Desciption>
         <SocialProfile items={SocialLinks} />
-        <IntroSkills>Skills</IntroSkills>
+        <IntroSkills>My Skills</IntroSkills>
         <Desciption>
           JavaScript, React, Redux, HTML, CSS, SASS, Node.js, PostgreSQL
         </Desciption>

@@ -12,34 +12,35 @@ import {
   IntroContentWrapper,
 } from "./style";
 import {
-  IoLogoFacebook,
   IoLogoTwitter,
-  IoLogoInstagram,
   IoLogoGithub,
+  IoIosDocument,
+  IoLogoLinkedin,
 } from "react-icons/io";
 
 type IntroProps = {};
 
 const SocialLinks = [
   {
-    icon: <IoLogoFacebook />,
-    url: "#",
-    tooltip: "Facebook",
-  },
-  {
-    icon: <IoLogoInstagram />,
-    url: "#",
-    tooltip: "Instagram",
-  },
-  {
     icon: <IoLogoTwitter />,
     url: "https://twitter.com/AmyCodesMe",
     tooltip: "Twitter",
   },
   {
+    icon: <IoLogoLinkedin />,
+    url: "https://www.linkedin.com/in/royamy/",
+    tooltip: "LinkedIn",
+  },
+  {
     icon: <IoLogoGithub />,
     url: "https://github.com/MeerKatnip",
     tooltip: "Github",
+  },
+  {
+    icon: <IoIosDocument />,
+    url:
+      "https://www.linkedin.com/in/royamy/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAApLw7gBXeh14Lqb8KVawyWROBpVps2u0-c,1594659213023)/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJzOFA2PFS5CfqWMcCNWlkQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-featured_item_detail_view",
+    tooltip: "Resume",
   },
 ];
 

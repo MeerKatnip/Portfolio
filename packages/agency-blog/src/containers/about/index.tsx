@@ -3,11 +3,10 @@ import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 import SocialProfile from "../../components/social-profile/social-profile";
 import {
-  IoLogoFacebook,
   IoLogoTwitter,
-  IoLogoInstagram,
   IoLogoLinkedin,
   IoLogoGithub,
+  IoIosDocument,
 } from "react-icons/io";
 import {
   AboutWrapper,
@@ -19,16 +18,6 @@ import {
 
 const SocialLinks = [
   {
-    icon: <IoLogoFacebook />,
-    url: "https://www.facebook.com/redqinc/",
-    tooltip: "Facebook",
-  },
-  {
-    icon: <IoLogoInstagram />,
-    url: "https://www.instagram.com/redqinc/",
-    tooltip: "Instagram",
-  },
-  {
     icon: <IoLogoTwitter />,
     url: "https://twitter.com/AmyCodesMe",
     tooltip: "Twitter",
@@ -36,12 +25,18 @@ const SocialLinks = [
   {
     icon: <IoLogoLinkedin />,
     url: "https://www.linkedin.com/in/royamy/",
-    tooltip: "Linked In",
+    tooltip: "LinkedIn",
   },
   {
     icon: <IoLogoGithub />,
     url: "https://github.com/MeerKatnip",
     tooltip: "Github",
+  },
+  {
+    icon: <IoIosDocument />,
+    url:
+      "https://www.linkedin.com/in/royamy/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAAApLw7gBXeh14Lqb8KVawyWROBpVps2u0-c,1594659213023)/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BJzOFA2PFS5CfqWMcCNWlkQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-featured_item_detail_view",
+    tooltip: "Resume",
   },
 ];
 

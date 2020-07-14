@@ -1,4 +1,4 @@
-require("dotenv").config({
+require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
@@ -8,7 +8,7 @@ module.exports = {
     author: `Amy Roy`,
     about: `This is the area where I describe myself and display my portfolio.`,
     description: `Amy Roy Software Engineer Portfolio Home Page - Amycodes.me`,
-    siteUrl: `https://storyhub-agency-tarex.redq.now.sh/`,
+    siteUrl: `https://www.amycodes.me/`,
   },
   plugins: [
     {
@@ -117,9 +117,9 @@ module.exports = {
       resolve: `gatsby-plugin-lodash`,
     },
     {
-      resolve: "gatsby-plugin-mailchimp",
+      resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: "", // add your MC list endpoint here
+        endpoint: '', // add your MC list endpoint here
       },
     },
     {

@@ -117,21 +117,6 @@ module.exports = {
       resolve: `gatsby-plugin-lodash`,
     },
     {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-        endpoint: '', // add your MC list endpoint here
-      },
-    },
-    {
-      resolve: `gatsby-source-instagram`,
-      //add your instagram username, access_token and id below
-      options: {
-        // username: ,
-        // access_token: ,
-        // instagram_id: ,
-      },
-    },
-    {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [

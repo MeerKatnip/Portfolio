@@ -112,6 +112,21 @@ export const Desciption = styled.p`
   }
 `;
 
+export const Skills = styled.h2`
+  color: #f43e9c;
+  font-size: 30px;
+  line-height: ${themeGet("lineHeights.text", "2")};
+  text-align: center;
+  margin-bottom: 50px;
+  @media (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+`;
+
+export const Bold = styled.b`
+  color: #f43e9c;
+`;
+
 export const BgText = styled.div`
   font-size: 400px;
   font-weight: 700;

@@ -35,13 +35,13 @@ A user will create an account with an email address and password. The user will 
 
 ## Site Preview
 
-##### Home Page:
+##### Home Page: Coming Soon
 
-##### Login Page:
+##### Login Page: Coming Soon
 
 ## Live Link
 
-[sample link](http://www.google.com)
+[Coming Soon](http://www.google.com)
 
 ## This site was built by:
 

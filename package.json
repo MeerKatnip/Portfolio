@@ -14,6 +14,7 @@
     "build:personal": "yarn workspace @blog/personal build",
     "serve:personal": "yarn workspace @blog/personal serve",
     "dev:agency": "yarn workspace @blog/agency develop",
+    "build": "gatsby build",
     "build:agency": "yarn workspace @blog/agency build",
     "serve:agency": "yarn workspace @blog/agency serve",
     "dev:personal-minimal": "yarn workspace @blog/personal-minimal develop",

@@ -73,7 +73,9 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
         <IntroImage>
           <Image fluid={AuthorImage} alt="author" />
         </IntroImage>
-        <IntroTitle>Hey! I'm {author}.</IntroTitle>
+        <IntroTitle>
+          Hey! I'm {author}, Full-Stack Software Engineer.
+        </IntroTitle>
         <Desciption>
           <p>
             {" "}
@@ -90,8 +92,8 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
             that I'd never experienced before. My work experience included
             clerical and managerial positions working with databases, and this
             gave me a deep appreciation for the power of organized information.
-            I decided that now was the time for me to attend a coding bootcamp
-            and enter this exciting field.
+            With these combinded skills, I decided that now was the time to
+            attend a coding bootcamp and enter this exciting field.
           </p>
           <p>
             In my free time, I love to garden, hike and bike on trails, and play

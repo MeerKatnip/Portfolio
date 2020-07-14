@@ -72,18 +72,8 @@ const About: React.FunctionComponent<AboutProps> = (props) => {
       </AboutImage>
 
       <AboutDetails>
-        <h2>Hey there, what’s up?</h2>
-        <p>
-          {" "}
-          I am a detailed, competent lifelong learner with a passion for
-          organization and 3D printing. I excel at making databases and taking
-          large stacks of client information and parsing it into an
-          understandable and accessible format.
-        </p>
-        <p>
-          Check out my web dev work and connect with me at any of the links
-          below:
-        </p>
+        <h2></h2>
+        <p> </p>
 
         <SocialProfiles>
           <SocialProfile items={SocialLinks} />

@@ -22,7 +22,7 @@ type NavbarProps = {
 
 const MenuItems = [
   {
-    label: "Portfolio/About Me",
+    label: "Amy Roy | Full-Stack Software Engineer - Portfolio",
     url: "/",
   },
 ];

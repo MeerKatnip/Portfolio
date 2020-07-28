@@ -1,8 +1,8 @@
 ---
 title: Cannabis Strain App
 date: '2020-06-01'
-tags: ['JavaScript', 'API', 'HTML', 'CSS', 'Bootstrap']
-cover: './cannabisstrainhome.png'
+tags: ['JavaScript', 'API', 'HTML', 'CSS', 'Bootstrap', 'Surge']
+cover: './cannabisPagePreview.png'
 ---
 
 #### Purpose of this app:
@@ -19,22 +19,26 @@ Upon entering the home page of the website, the image carousel is most likely th
 
 ## Site Preview
 
-![Preview image of app](https://github.com/MeerKatnip/Cannabis-Strain/blob/master/API%20Webpage/API%20Project/images/homepage.png)
+<img src="./cannabisPagePreview.png" alt="Home Page Preview">
 
 ## Live Link
 
 <a href="http://cannabis-strain-app.surge.sh/" target="_blank">Cannabis Strain App</a>
 
+## GitHub Repo
+
+<a href="https://github.com/MeerKatnip/Cannabis-Strain/tree/master/API%20Webpage/API%20Project" target="_blank">Cannabis Strain GitHub Repo</a>
+
 ## This site was built by:
 
-- [David Carlisle](https://github.com/dbc257)
-- [LaKendra Farris](https://github.com/Lakendrafarris)
-- [Rickelle Tackitt](https://github.com/RickelleDawn)
-- [Amy Roy](https://github.com/MeerKatnip)
+- <a href="https://github.com/dbc257" target="_blank">David Carlisle</a>
+- <a href="https://github.com/Lakendrafarris" target="_blank">LaKendra Farris</a>
+- <a href="https://github.com/RickelleDawn" target="_blank">Rickelle Tackitt</a>
+- <a href="https://github.com/MeerKatnip" target="_blank">Amy Roy</a>
 
 ## API
 
-[The Strain API](https://strains.evanbusse.com/)
+<a href="https://strains.evanbusse.com/" target="_blank">The Strain API</a>
 
 ## Featured Programs
 

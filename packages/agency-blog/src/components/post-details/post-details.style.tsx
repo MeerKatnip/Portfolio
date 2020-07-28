@@ -119,6 +119,10 @@ export const PostDescription = styled.div`
     }
   }
 
+  img {
+    max-width: 85%;
+  }
+
   p {
     font-size: ${themeGet('fontSizes.4', '16')}px;
     margin-bottom: 2em;

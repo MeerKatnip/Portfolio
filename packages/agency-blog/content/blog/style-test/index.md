@@ -14,6 +14,8 @@ tags:
     'EXPRESS',
     'HTML',
     'CSS',
+    'Amazon RDS',
+    'Heroku',
   ]
 cover: './petmatchhome.png'
 ---
@@ -42,26 +44,32 @@ Planned features for future development:
 ## Site Preview
 
 **Home Page:**
-![PetMatch](/images/petMatchPreview.gif)
+<br/>
+<img src="./petMatchPreview.gif" alt="Home Page Preview">
 
 **Log-in screen:**
-![PetMatch](/images/loginPreview.gif)
+<br/>
+<img src="./loginPreview.gif" alt="Login Page Preview">
 
 ## Live Link
 
 <a href="https://serene-mountain-01139.herokuapp.com/home" target="_blank">PetMatch App</a>
 
+## GitHub Repo
+
+<a href="https://github.com/MeerKatnip/PetMatch" target="_blank">PetMatch GitHub Repo</a>
+
 ## This site was built by:
 
-- [Rickelle Tackitt](https://github.com/RickelleDawn)
-- [Hannah Lima](https://github.com/#)
-- [Keith Willis](https://github.com/WillisK-0)
-- [Amy Roy](https://github.com/MeerKatnip)
+- <a href="https://github.com/RickelleDawn" target="_blank">Rickelle Tackitt</a>
+- <a href="https://github.com/hannahlima1991" target="_blank">Hannah Lima</a>
+- <a href="https://github.com/WillisK-0" target="_blank">Keith Willis</a>
+- <a href="https://github.com/MeerKatnip" target="_blank">Amy Roy</a>
 
 ## Database and API used:
 
-- This project was built with [Amazon RDS](https://aws.amazon.com/rds/) and deployed on [Heroku](https://www.heroku.com/)
-- The API used for this project is [PetFinder API](https://www.petfinder.com/developers/)
+- This project was built with <a href="https://aws.amazon.com/rds/" target="_blank">Amazon RDS</a> and deployed on <a href="https://www.heroku.com/" target="_blank">Heroku</a>
+- The API used for this project is <a href="https://www.petfinder.com/developers/" target="_blank">PetFinder API</a>
 
 ## Language and Frameworks used:
 
